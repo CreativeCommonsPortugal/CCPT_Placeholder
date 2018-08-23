@@ -1,0 +1,152 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body{
+  background-color: #fff;
+
+}
+
+a {
+  color: #fff; }
+
+  a:hover {
+    color: #6f747c;
+    -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+       -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+           transition: all .2s ease-in-out;}
+
+p  {color: #fff;}
+h1,h2,h3,h4,h5 {color: #fff;}
+li {color: #fff;}
+
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #4E4E56;
+  border-color: #4E4E56; }
+
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #4E4E56;
+  border-color: #4E4E56; }
+
+select:focus {
+  border: 1px solid #4E4E56;
+  outline: 0; }
+
+
+
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: left;
+
+
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Casa
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.casa {
+
+}
+
+
+.logoCC_container {
+  display: block;
+  position: relative;
+  width: 28vw;
+  top: 30vh;
+  left: 50%;
+  margin: 0 -14vw;
+  /*box-shadow: 1px 1px 1px 1px #888888;*/
+}
+
+.logoLevo {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+.footerCC {
+   color: #000000;
+   display: block;
+   text-align: center;
+}
+
+
+/* texto
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.texto {
+  /*background-image: url('../images/img3.jpg');*/
+  background-size: cover;
+
+  min-height: 100vh;
+  /*padding-bottom: 5rem;*/
+}
+
+
+
+
+
+/* contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Bigger than 550 */
+@media (max-width: 550px) {
+
+  .logoCC_container {
+
+    display: block;
+    position: relative;
+    vertical-align: center;
+    width: 70vw;
+    top: 18vh;
+    left: 50%;
+    margin: 0 -35vw;
+    /*box-shadow: 1px 1px 1px 1px #888888;*/
+  }
+
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+
+}
+
+/* smaller than 750 */
+@media (max-width: 750px) {
+
+.logoCC_container {
+
+  display: block;
+  position: relative;
+  vertical-align: center;
+  width: 40vw;
+  top: 18vh;
+  left: 50%;
+  margin: 0 -22vw;
+  /*box-shadow: 1px 1px 1px 1px #888888;*/
+}
+
+
+}
